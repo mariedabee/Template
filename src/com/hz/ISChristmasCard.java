@@ -1,7 +1,6 @@
 package com.hz;
 
 public class ISChristmasCard extends PrintTemplate{
-    private boolean isChristmasCard;
 
 
     @Override

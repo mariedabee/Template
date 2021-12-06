@@ -1,8 +1,6 @@
 package com.hz;
 
 public class IsPostCard extends PrintTemplate{
-    private boolean isPostCard;
-    private PrintTemplate printer;
 
 
     @Override

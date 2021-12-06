@@ -1,8 +1,6 @@
 package com.hz;
 
 public class IsHighSchoolGraduationCard extends PrintTemplate{
-    private boolean isHighSchoolGraduationCard;
-    private PrintTemplate printer;
 
 
     @Override
