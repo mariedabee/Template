@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
         // Lets print some cards
-        Printer printer = new Console();
+        //Printer printer = new Console();
+        //Printer printer = new Console();
 
         // INSTRUCTIONS, READ CAREFULLY !!!!!!!!!!!!!!!!!!!!!!!!!!
         // For a normal postcard use: true, false
@@ -21,8 +22,14 @@ public class Main {
 
         // IF WE HAVE TO ADD AN OTHER TYPE OF CARD...
         // ...I QUIT THIS JOB.
-        PostCard card = new PostCard(printer, false, true);
+        //PostCard card = new PostCard(printer, false, true);
 
+        //card.print();
+
+        PrintTemplate card = new ISChristmasCard();
+        card.print();
+        card = new IsPostCard();
         card.print();
     }
-}
+    }
+
